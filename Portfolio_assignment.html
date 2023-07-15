@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container-div {
+      background-color:#f5ebe0;
+      padding: 60px 0;
+      padding-top:50px ;
+      border-top-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      
+    }
+    .navbar {
+      background-color: black;
+      color: black;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .section-heading {
+      text-align: center;
+      
+      margin-bottom: 30px;
+    }
+
+    .card {
+      margin-bottom: 30px;
+      border: none;
+      border-radius: 0;
+    }
+
+    .card-body {
+      text-align: center;
+    }
+
+    .contact-form {
+      margin-top: 30px;
+    }
+
+    .scroll-up-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #333;
+      color: black;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+      transition: opacity 0.3s;
+    }
+
+    .scroll-up-btn:hover {
+      opacity: 0.8;
+    }
+    .para{
+        font-size: 17px;
+    }
+    .text-center{
+        font-size: 17px;
+    }
+    
+  </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+    <a class="navbar-brand" href="#" >My Portfolio, glad you are here!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="home" class="section">
+    <div class="container-div">
+      <div class="container">
+        <h1 class="section-heading">Welcome to My Portfolio</h1>
+        <p class="text-center" >Your web design partner.</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container-div">
+      <div class="container">
+        <h2 class="section-heading">About Me</h2>
+        <p class="para">As a computer science graduate student with skills in Java, HTML, CSS, JavaScript, Google Cloud, PHP, Firebase, and Flask, I have developed a diverse range of projects that demonstrate my abilities and showcase my skillset. With a passion for creating innovative solutions and a strong foundation in programming, I am eager to contribute to the field of computer science. </p>
+        <h3 class="section-heading">Skills</h3>
+        <ul>
+          <li>Html,CSS,JavaScript</li>
+          <li>Java,Php</li>
+          <li>Mysql,flask,firebase</li>
+          <li>Google Cloud Platform</li>
+        </ul>
+        <h3 class="section-heading">Web Development Journey</h3>
+        <p class="para">I am constantly exploring new technologies and frameworks to expand my knowledge and deliver high-quality software solutions. I look forward to leveraging my skills and experiences to contribute to challenging projects and drive impactful outcomes in the field of computer science.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container-div">
+      <div class="container">
+        <h2 class="section-heading">Projects</h2>
+
+        <div class="row">
+
+          <!-- Project 1 -->
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Smart Interface for Medical Diagnosis</h5>
+                <p class="card-text" >This project's goal is to concentrate on the idea of a text-to-text diagnosis interface that converses with patients about their medical problems and offers a tailored diagnosis based on their symptoms.</p>
+                <p class="card-text">Tech Stack: HTML, CSS, JavaScript, Firebase, Google dailoge flow</p>
+                <a href="https://github.com/afra-af/Smart-Interface-for-Medical-Diagnosis.git" class="btn btn-primary">Source Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">LifeSupport</h5>
+                <p class="card-text">A Web-Based Application to Connect Blood Donators and Blood Seekers at particular location including hospitals (if any).</p>
+                <p class="card-text">Tech Stack: HTML, CSS, JavaScript, Php, Mysql</p>
+                <a href="https://github.com/afra-af/Life-Support-website-.git" class="btn btn-primary">Source Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add more projects as needed -->
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container-div">
+      <div class="container">
+        <h2 class="section-heading">Contact Me</h2>
+        <p class="para">You can reach me through the following channels:</p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <ul>
+              <li>Email: afra.afra1@outlook.com</li>
+              <li>Phone: 123-456-7890</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul>
+             
+              <li><a href="https://www.linkedin.com/in/afra-afra-7654421b0">LinkedIn</a></li>
+              <li><a href="https://github.com/afra-af">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3 class="section-heading">Leave me a message</h3>
+          <form>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="scroll-up-btn">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+            window.location.hash = hash;
+          });
+        }
+      });
+
+      // Show/hide scroll-up button
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+          $('.scroll-up-btn').fadeIn();
+        } else {
+          $('.scroll-up-btn').fadeOut();
+        }
+      });
+
+      // Scroll to top when scroll-up button is clicked
+      $('.scroll-up-btn').click(function () {
+        $('html, body').animate({
+          scrollTop: 0
+        }, 800);
+        return false;
+      });
+    });
+  </script>
+</body>
+
+</html>
